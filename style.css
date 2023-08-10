@@ -27,6 +27,16 @@ a, btn {
 
 /* Desktop Nav */
 
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+}
+
+
 nav,
 .nav-links {
     display: flex;
@@ -36,6 +46,9 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 17vh;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
 }
 
 .nav-links {
@@ -321,7 +334,22 @@ section {
     justify-content: center;
     flex-direction: column;
   }
-  
+
+  .details-container {
+    overflow: hidden; /* Hide overflow content */
+    transition: height 0.3s ease-in-out; /* Add smooth transition */
+    height: 30px; /* Set a fixed height for collapsed container */
+}
+
+.toggle.active + .article-container .content {
+    display: block;
+    margin-top: 10px; /* Adjust margin when content is visible */
+}
+
+.toggle.active + .article-container {
+    display: block;
+}
+
   .article-container {
     display: flex;
     text-align: initial;
@@ -337,6 +365,8 @@ section {
     justify-content: space-around;
     gap: 0.5rem;
   }
+
+  
 
   /* PROJECTS SECTION */
 

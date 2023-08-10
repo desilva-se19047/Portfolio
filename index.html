@@ -8,35 +8,37 @@
     <link rel="stylesheet" href="mediaqueries.css" />
 </head>
 <body>
-    <nav id="desktop-nav">
-        <div class="logo">PORTFOLIO</div>
-        <div>
+    <header id="header">
+        <nav id="desktop-nav">
+            <div class="logo">PORTFOLIO</div>
             <div>
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>                   
-                </ul>
+                <div>
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>                   
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <nav id="hamburger-nav">
-        <div class="logo">PORTFOLIO</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">PORTFOLIO</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li> 
+                </div>
             </div>
-            <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li> 
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <section id="profile">    
         <div class="section_text">
             <p class="section_text_p1">Hello, I'm</p>
@@ -87,26 +89,34 @@
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <h2 class="experience-sub-title toggle">Education</h2>
                     <div class="article-container">
                         <article>
-                            <div>
+                            <div class="content">
                                 <h3>HTML</h3>
+                                <p>This is the content for education.</p>
                             </div>
                         </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title toggle">Volunteering</h2>
+                    <div class="article-container">
                         <article>
-                            <div>
-                                <h3>CSS</h3>
+                            <div class="content">
+                                <h3>HTML</h3>
+                                <p>This is the content for volunteering.</p>
                             </div>
                         </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title toggle">Skills</h2>
+                    <div class="article-container">
                         <article>
-                            <div>
-                                <h3>JS</h3>
-                            </div>
-                        </article>
-                        <article>
-                            <div>
-                                <h3>Java</h3>
+                            <div class="content">
+                                <h3>HTML</h3>
+                                <p>This is the content for skills.</p>
                             </div>
                         </article>
                     </div>

@@ -8,7 +8,6 @@
 }
 
 body {
-  margin-top: 17vh;
   font-family: "Poppins", sans-serif;
   background-color: rgb(92, 84, 84);
 }
@@ -48,7 +47,7 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 12vh;
+  height: 17vh;
   background-color: rgb(161, 158, 158);
 }
 
@@ -162,10 +161,10 @@ a:hover {
 /* SECTIONS */
 
 section {
+  padding-top: 4vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
-  padding-bottom: 0;
 }
 
 .section-container {
@@ -178,8 +177,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 50vh;
-
+  height: 80vh;
 }
 
 .section__pic-container {
@@ -264,7 +262,6 @@ section {
 
 #about {
   position: relative;
-  padding-top: 12rem;
 }
 
 .text-container{
@@ -443,7 +440,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height:50vh;
+  height: 70vh;
 }
 
 .contact-info-upper-container {
@@ -483,7 +480,6 @@ article .icon {
 footer {
   height: 26vh;
   margin: 0 1rem;
-  padding-top: 12vh;
 }
 
 footer p {

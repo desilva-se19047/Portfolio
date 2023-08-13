@@ -7,6 +7,9 @@
     .about-containers {
       flex-wrap: wrap;
     }
+    #about, #experience, #projects{
+      padding-top: 5rem;
+    }
   }
   
   @media screen and (max-width: 1200px) {
@@ -172,6 +175,7 @@
     }
     #about {
       margin-top: 0;
+      padding-top: 10rem;
     }
   }
   

@@ -162,7 +162,6 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 3rem;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -265,6 +264,7 @@ section {
 
 #about {
   position: relative;
+  padding-top: 12rem;
 }
 
 .text-container{

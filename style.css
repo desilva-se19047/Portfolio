@@ -162,7 +162,7 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
+  padding-top: 15vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -481,6 +481,7 @@ article .icon {
 footer {
   height: 26vh;
   margin: 0 1rem;
+  padding-top: 12vh;
 }
 
 footer p {

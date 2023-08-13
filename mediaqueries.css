@@ -46,6 +46,9 @@
     .about-containers {
       margin-top: 0;
     }
+    #section {
+      margin-top: 8rem;
+    }
   }
   
   @media screen and (max-width: 600px) {
@@ -155,6 +158,9 @@
       height: auto; /* Set height to auto when active */
       padding: 1.5rem; /* Add padding when active */
       margin: 1rem auto; /* Add margin when active */
+    }
+    #about {
+      margin-top: 0;
     }
   }
   

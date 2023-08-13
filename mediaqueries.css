@@ -19,6 +19,9 @@
   .experience-details-container {
     margin-top: 2rem;
   }
+  .experience-sub-title {
+    font-size: 1.1rem;
+  }
   #profile,
   .section-container {
     display: block;
@@ -41,6 +44,13 @@
   .about-containers {
     margin-top: 0;
   }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p {
+    font-size: 0.65rem;
+  }
+
 }
 
 @media screen and (max-width: 600px) {

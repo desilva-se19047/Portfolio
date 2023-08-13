@@ -10,7 +10,7 @@
 <body>
     <header id="header">
         <nav id="desktop-nav">
-            <div class="logo"><b>PRASADINI</b></div>
+            <div class="logo"><a href="#profile">PRASADINI</a></div>
             <div>
                 <div>
                     <ul class="nav-links">
@@ -23,7 +23,7 @@
             </div>
         </nav>
         <nav id="hamburger-nav">
-            <div class="logo"><b>PRASADINI</b></div>
+            <div class="logo"><a href="#profile">PRASADINI</a></div>
             <div class="hamburger-menu">
                 <div class="hamburger-icon" onclick="toggleMenu()">
                     <span></span>
@@ -39,12 +39,14 @@
             </div>
         </nav>
     </header>
-    <section id="profile">    
-        <div class="section_text">
-            <br><br>
-            <p class="section_text_p1">Hello, I'm</p>
-            <h3 class="title">Prasadini De Silva</h1>
-            <p class="section_text_p2">Software Engineering Undergraduate</p>
+    <section id="profile"> 
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Prasadini De Silva profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Prasadini De Silva</h1>
+            <p class="section__text__p2">Software Engineering Undergraduate</p>
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/Prasadini De Silva-Resume.pdf')">Download CV</button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
@@ -53,9 +55,6 @@
                 <img src="./assets/linkedin.png" alt="My linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/prasadini-de-silva-45a06a237/'">
                 <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/desilva-se19047'">
             </div>
-        </div>
-        <div class="section_pic-container">
-            <img src="./assets/profile-pic.png" alt="Prasadini De Silva profile picture">
         </div>
     </section>
     <section id="about">
@@ -73,22 +72,44 @@
                 </div>
                 <div class="about-containers">
                     <div class="details-container">
-                        <img src="./assets/education.png" alt="Education icon" class="icon">
-                        <h3>Achievements</h3>
+                        <div class="flex-container">
+                            <img src="./assets/experience.png" alt="Education icon" class="icon">
+                            <h3>Achievements</h3>
+                        </div>
+                        <br>
+                        <p>
+                            <b>Top 10 Projects</b>
+                            <br>INSL Colombo North Divisional Competition | 2022
+                            <br>IEEE Innovation Nation Sri Lanka
+                            <br><br>
+                            <b>Participate</b>
+                            <br>Junior Hack 4.0 | 2022
+                            <br>Software Engineering Student Association
+                            <br>University of Kelaniya
+                        </p>
                     </div>
                     <div class="details-container">
-                        <img src="./assets/experience.png" alt="Experience icon" class="icon">
-                        <h3>Skills</h3>
-                    </div>
-                    <div class="details-container">
-                        <img src="./assets/experience.png" alt="Experience icon" class="icon">
-                        <h3>Extra Curricular Activities</h3>
+                        <div class="flex-container">
+                            <img src="./assets/experience.png" alt="Education icon" class="icon">
+                            <h3>Skills</h3>
+                        </div>                        <br>
+                        <p>
+                            <b>Technical Skills</b>
+                            <br>HTML | CSS | JavaScript 
+                            | PHP | Java | C | React JS 
+                            | MySQL | Git | Power BI
+                            <br><br>
+                            <b>Soft Skills</b>
+                            <br>Adaptability | Time Management 
+                            | Stress Management | Decision Making
+                            | Teaching Skills | Work in Team
+                            | Communication Skill | Data Analysis
+                        </p>
                     </div>
                 </div>
             </div>
     </section>
     <section id="experience">
-        <p class="section_text_p1">Explore My</p>
         <h1 class="title">Experience</h1>
         <div class="experience-details-container">
             <div class="about-containers">
@@ -114,19 +135,21 @@
                                     <br>2004 - 2014
                                     <br>7As and 2Cs
                                     <br><br>
+                                    <br><br>
                                 </p>
                             </div>
                         </article>
                     </div>
                 </div>
                 <div class="details-container">
-                    <h2 class="experience-sub-title toggle">  Working Experience</h2>
+                    <h2 class="experience-sub-title toggle">Working Experience</h2>
                     <div class="article-container">
                         <article>
                             <div class="content">
                                 <p> <b>Former School Leaver</b>
                                     <br>August 2020 - February 2021
                                     <br>Bank Of Ceylon, Hiripitiya
+                                    <br><br>
                                     <br><br>
                                 </p>
                             </div>
@@ -162,6 +185,7 @@
                                     <br>2013 - 2014
                                     <br>Ku/Wellawa Central College, Wellawa
                                     <br><br>
+                                    <br><br>
                                 </p>
                             </div>
                         </article>
@@ -169,10 +193,8 @@
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='/#experience'">
     </section>
     <section id="projects">
-        <p class="section_text_p1">Brows My Recent</p>
         <h1 class="title">Projects</h1>
         <div class="experience-details-container">
             <div class="about-containers">
@@ -180,38 +202,33 @@
                     <div class="article-container">
                         <img src="./assets/project-1.png" alt="Project 1" class="project-img">
                     </div>
-                    <h2 class="experience-sub-title project-title">Project 1</h2>
+                    <h2 class="experience-sub-title project-title">Ecommerce Website</h2>
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>   
                     </div>
                 </div>
                 <div class="details-container color-container">
                     <div class="article-container">
                         <img src="./assets/project-2.png" alt="Project 2" class="project-img">
                     </div>
-                    <h2 class="experience-sub-title project-title">Project 2</h2>
+                    <h2 class="experience-sub-title project-title">Simple Calculater</h2>
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>   
                     </div>
                 </div>
                 <div class="details-container color-container">
                     <div class="article-container">
                         <img src="./assets/project-3.png" alt="Project 3" class="project-img">
                     </div>
-                    <h2 class="experience-sub-title project-title">Project 3</h2>
+                    <h2 class="experience-sub-title project-title">Saree Web Page</h2>
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>   
                     </div>
                 </div>   
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='/#experience'">       
     </section>
     <section id="contact">
-        <p class="section_text_p1">Get in Touch</p>
         <h1 class="title">Contact Me</h1>
         <div class="contact-info-upper-container">
             <div class="contact-info-container">

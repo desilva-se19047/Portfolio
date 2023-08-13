@@ -15,3 +15,4 @@ toggleElements.forEach(toggleElement => {
         container.style.height = toggleElement.classList.contains('active') ? (content.scrollHeight + 30) + 'px' : '30px';
     });
 });
+

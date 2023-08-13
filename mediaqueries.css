@@ -2,6 +2,7 @@
     #profile {
       height: 83vh;
       margin-top: 3rem;
+      padding-top: 0;
     }
     .about-containers {
       flex-wrap: wrap;
@@ -27,6 +28,9 @@
     #profile,
     .section-container {
       display: block;
+    }
+    #profile {
+      padding-top: 0;
     }
     .arrow {
       display: none;
@@ -64,6 +68,7 @@
       height: 40vh;
     }
     #profile {
+      padding-top: 0;
       height: 75vh;
       margin-bottom: 0;
     }

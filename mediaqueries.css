@@ -19,6 +19,11 @@
     .experience-details-container {
       margin-top: 2rem;
     }
+
+    .experience-sub-title {
+      font-size: 1.19rem;
+    }
+
     #profile,
     .section-container {
       display: block;

@@ -8,6 +8,7 @@
 }
 
 body {
+  margin-top: 17vh;
   font-family: "Poppins", sans-serif;
   background-color: rgb(92, 84, 84);
 }
@@ -47,7 +48,7 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 12vh;
   background-color: rgb(161, 158, 158);
 }
 

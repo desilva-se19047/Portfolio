@@ -49,6 +49,13 @@
     #section {
       margin-top: 8rem;
     }
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 0.75rem;
+    }
   }
   
   @media screen and (max-width: 600px) {
